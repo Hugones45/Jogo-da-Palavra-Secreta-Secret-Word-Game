@@ -4,8 +4,8 @@ const StarScreen = ({ startGame }) => {
   return (
     <div className='start'>
       <h1>Secret Word</h1>
-      <p>Clique no botão abaixo para começar a jogar!</p>
-      <button onClick={startGame}>Começar o Jogo!</button>
+      <p>Click the button below to start playing!</p>
+      <button onClick={startGame}>Start the game!</button>
     </div>
   )
 }
